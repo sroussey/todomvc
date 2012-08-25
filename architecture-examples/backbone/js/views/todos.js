@@ -8,7 +8,9 @@ $(function() {
 
 	// The DOM element for a todo item...
 	app.TodoView = Backbone.View.extend({
-
+		// for debugging
+		_className: 'app.TodoView',
+		
 		//... is a list tag.
 		tagName:  'li',
 

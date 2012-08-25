@@ -9,6 +9,8 @@ var app = app || {};
 	// The collection of todos is backed by *localStorage* instead of a remote
 	// server.
 	var TodoList = Backbone.Collection.extend({
+		// for debugging
+		_className: 'app.Todo',
 
 		// Reference to this collection's model.
 		model: app.Todo,

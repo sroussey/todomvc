@@ -7,6 +7,9 @@ var app = app || {};
 	// ----------
 
 	var Workspace = Backbone.Router.extend({
+		// for debugging
+		_className: 'Workspace',
+
 		routes:{
 			'*filter': 'setFilter'
 		},
